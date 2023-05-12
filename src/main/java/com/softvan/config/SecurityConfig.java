@@ -40,9 +40,6 @@ public class SecurityConfig {
                 .and()
                 .authenticationProvider(authenticationProvider)
                 .addFilterAfter(jwtFilter, UsernamePasswordAuthenticationFilter.class);
-
-        // Optional, if you want to test the API from a browser
-        http.httpBasic().disable();
         return http.build();
     }
 
