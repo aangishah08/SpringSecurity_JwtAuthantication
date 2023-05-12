@@ -1,6 +1,6 @@
 package com.softvan.Service;
 
-import com.softvan.confilg.JwtService;
+import com.softvan.config.JwtService;
 import com.softvan.entity.*;
 import com.softvan.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

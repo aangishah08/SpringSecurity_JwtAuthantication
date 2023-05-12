@@ -1,4 +1,4 @@
-package com.softvan.confilg;
+package com.softvan.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

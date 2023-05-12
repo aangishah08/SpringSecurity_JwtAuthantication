@@ -1,4 +1,4 @@
-package com.softvan.confilg;
+package com.softvan.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
